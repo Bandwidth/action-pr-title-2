@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: action-pr-title-2
+  description: Forked from https://github.com/deepakputhraya/action-pr-title
+  annotations:
+    github.com/project-slug: Bandwidth/action-pr-title-2
+  organization: BW
+  costCenter: Development - Software Infra
+  platformType: undefined
+  buildPlatform: undefined
+spec:
+  type: GitHub Action
+  owner: github/band-swi
+  lifecycle: Prototype
+  dependsOn:
+    - resource:platform/undefined
+    - resource:cost-center/Development - Software Infra
